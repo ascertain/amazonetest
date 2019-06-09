@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29046" started-at="2019-06-09T20:24:16Z" finished-at="2019-06-09T20:24:46Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="29046" started-at="2019-06-09T20:24:16Z" finished-at="2019-06-09T20:24:46Z">
+      <class name="com.knowit.tests.AmazonKnowitTests">
+        <test-method status="PASS" signature="setupBeforeSuite(org.testng.ITestContext)[pri:0, instance:com.knowit.tests.AmazonKnowitTests@1bce4f0a]" name="setupBeforeSuite" is-config="true" duration-ms="6604" started-at="2019-06-09T22:24:16Z" finished-at="2019-06-09T22:24:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@797b0699]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeSuite -->
+        <test-method status="PASS" signature="launchSite()[pri:0, instance:com.knowit.tests.AmazonKnowitTests@1bce4f0a]" name="launchSite" duration-ms="223" started-at="2019-06-09T22:24:23Z" description="Launch any driver and open https://www.amazon.com" finished-at="2019-06-09T22:24:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSite -->
+        <test-method status="PASS" signature="opendepartmentPage()[pri:0, instance:com.knowit.tests.AmazonKnowitTests@1bce4f0a]" name="opendepartmentPage" duration-ms="2465" started-at="2019-06-09T22:24:23Z" description="Navigate to the department page" finished-at="2019-06-09T22:24:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opendepartmentPage -->
+        <test-method status="PASS" signature="searchProdcut()[pri:0, instance:com.knowit.tests.AmazonKnowitTests@1bce4f0a]" name="searchProdcut" duration-ms="2478" started-at="2019-06-09T22:24:26Z" description="Search for &quot;Lenovo T470 Laptop&quot;" finished-at="2019-06-09T22:24:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProdcut -->
+        <test-method status="PASS" signature="selectAvgRatting()[pri:0, instance:com.knowit.tests.AmazonKnowitTests@1bce4f0a]" name="selectAvgRatting" duration-ms="2693" started-at="2019-06-09T22:24:28Z" description="Select Avg. Customer Review as 3 stars" finished-at="2019-06-09T22:24:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAvgRatting -->
+        <test-method status="PASS" signature="printNameAndPrice()[pri:0, instance:com.knowit.tests.AmazonKnowitTests@1bce4f0a]" name="printNameAndPrice" duration-ms="9518" started-at="2019-06-09T22:24:31Z" description="Print Name and Price for all the filtered products including products which displays on pages 2,3… after navigating to those pages through pagination" finished-at="2019-06-09T22:24:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printNameAndPrice -->
+        <test-method status="PASS" signature="printTotalNumberOfProducts()[pri:0, instance:com.knowit.tests.AmazonKnowitTests@1bce4f0a]" name="printTotalNumberOfProducts" duration-ms="43" started-at="2019-06-09T22:24:40Z" description="Print the total number of products " finished-at="2019-06-09T22:24:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTotalNumberOfProducts -->
+        <test-method status="PASS" signature="printMiniPriceDetails()[pri:0, instance:com.knowit.tests.AmazonKnowitTests@1bce4f0a]" name="printMiniPriceDetails" duration-ms="1727" started-at="2019-06-09T22:24:40Z" description="Find  the Minimum price laptop and print its name and price" finished-at="2019-06-09T22:24:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMiniPriceDetails -->
+        <test-method status="PASS" signature="setupAfterSuite()[pri:0, instance:com.knowit.tests.AmazonKnowitTests@1bce4f0a]" name="setupAfterSuite" is-config="true" duration-ms="3280" started-at="2019-06-09T22:24:42Z" finished-at="2019-06-09T22:24:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterSuite -->
+      </class> <!-- com.knowit.tests.AmazonKnowitTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

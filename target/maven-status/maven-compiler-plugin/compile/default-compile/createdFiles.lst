@@ -1,0 +1,6 @@
+com\knowit\pages\DepartmentPage.class
+com\knowit\tests\AmazonKnowitTests.class
+com\knowit\tests\BaseTest.class
+com\knowit\pages\BasePage.class
+com\knowit\pages\ElectronicsPage.class
+com\knowit\pages\HomePage.class

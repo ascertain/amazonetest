@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="com.knowit.tests.AmazonKnowitTests">
+        <methods>
+          <include name="launchSite"/>
+          <include name="opendepartmentPage"/>
+          <include name="searchProdcut"/>
+          <include name="selectAvgRatting"/>
+          <include name="printNameAndPrice"/>
+          <include name="printTotalNumberOfProducts"/>
+          <include name="printMiniPriceDetails"/>
+        </methods>
+      </class> <!-- com.knowit.tests.AmazonKnowitTests -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+  <test name="Test" preserve-order="true">	
+    <classes>
+      <!-- class name="com.knowit.AmazonTest" -->
+      <class name="com.knowit.tests.AmazonKnowitTests">
+     	 <methods>
+      		<include name="launchSite"></include>
+      		<include name="opendepartmentPage"></include>
+      		<include name="searchProdcut"></include>
+      		<include name="selectAvgRatting"></include>
+      		<include name="printNameAndPrice"></include>
+      		<include name="printTotalNumberOfProducts"></include>
+      		<include name="printMiniPriceDetails"></include>
+      	</methods>
+      </class>	
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
